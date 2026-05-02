@@ -1,0 +1,105 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Serialized models & weights
+*.pkl
+*.pickle
+*.joblib
+*.pt
+*.pth
+*.model
+models/
+checkpoints/
+
+# TensorFlow/PyTorch specific
+*.ckpt
+*.index
+*.meta
+*.data-*
+cleaned/
+
+# Experiment tracking (MLflow, etc.)
+mlruns/
+
+# Logs
+*.log
+logs/
+
+# Output directories
+output/
+results/
+notebooks/output/
+**/__pycache__/
+
+# Credentials & secrets
+*.key
+*.pem
+*.crt
+config.yaml
+config.yml
+secrets.json
+credentials.json
+.env
+.env.local
+
+# Report
+*.docx
